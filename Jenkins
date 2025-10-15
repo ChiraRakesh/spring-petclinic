@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/ChiraRakesh/Maven_Project.git'
+        GIT_REPO = 'https://github.com/ChiraRakesh/spring-petclinic.git'
         TOMCAT_USER = 'admin'
         TOMCAT_PASS = 'admin'
         TOMCAT_URL = 'http://localhost:8080/manager/text'
